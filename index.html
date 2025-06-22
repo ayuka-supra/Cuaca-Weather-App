@@ -15,21 +15,30 @@
   <body>
     <div class="weather-app">
       <header>
-        <form>
-          <input type="search" placeholder="Enter a city..." />
-          <input type="submit" value="Search" />
+        <form class="search-form">
+          <input
+            type="search"
+            placeholder="Enter a city..."
+            class="search-input"
+          />
+          <input type="submit" value="Search" class="search-button" />
         </form>
       </header>
       <main>
-        <div>
-          <h1>Melbourne</h1>
-          <p>
-            Tuesday 14:49, scattered shower <br />
-            humidity: 66%, wind: 6.5km/hr
-          </p>
-        </div>
-        <div>☀️20°C</div>
-      </main>
+        <div class="current-weather">
+          <div>
+            <h1 class="current-city">Melbourne</h1>
+            <p class="current-details">
+              Tuesday 14:49, scattered shower <br />
+              humidity: <strong>66%</strong>, wind: <strong>6.5km/hr</strong>
+            </p>
+          </div>
+          <div class="current-temperature">
+            <div class="current-temperature-icon">☀️</div>
+            <div class="current-temperature-value">24</div>
+            <div class="current-temperature-unit">°C</div>
+          </div>
+            </main>
       <footer>
         This project was coded by
         <a href="https://github.com/ayuka-supra" target="_blank"
