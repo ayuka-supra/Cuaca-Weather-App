@@ -21,7 +21,7 @@
             type="search"
             placeholder="Enter a city..."
             class="search-input"
-            id="search-input"
+            id="search-form-input"
           />
           <input type="submit" value="Search" class="search-button" />
         </form>
@@ -29,7 +29,7 @@
       <main>
         <div class="current-weather">
           <div>
-            <h1 class="current-city" id="current-city">Melbourne</h1>
+            <h1 class="current-city" id="city"></h1>
             <p class="current-details">
               Tuesday 14:49, scattered shower <br />
               humidity: <strong>66%</strong>, wind: <strong>6.5km/hr</strong>
@@ -37,7 +37,7 @@
           </div>
           <div class="current-temperature">
             <div class="current-temperature-icon">☀️</div>
-            <div class="current-temperature-value">24</div>
+            <div class="current-temperature-value" id="temperature"></div>
             <div class="current-temperature-unit">°C</div>
           </div>
        </main>
